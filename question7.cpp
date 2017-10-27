@@ -49,8 +49,7 @@ int main()
   else
    cout<<"Both the strings are unequal";
   cout<<"\nThe length of String1 and String2 respectively is: "<<Strlen(str1)<<" and "<<Strlen(str2);
-  Strc
-  at(str1,str2);
+  Strcat(str1,str2);
   
   return 0;
 }
